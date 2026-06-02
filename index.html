@@ -47,6 +47,7 @@
         </div>
         <div class="header-right">
             <div class="lang-selector" id="langSelector">
+                <!-- Main languages -->
                 <button class="lang-btn" data-lang="uz">O'ZB</button>
                 <button class="lang-btn active" data-lang="ru">RUS</button>
                 <button class="lang-btn" data-lang="en">ENG</button>
@@ -138,95 +139,722 @@
         </div>
     </section>
 
-    <!-- Section: Документы и Договоры -->
+    <!-- Section: Концепция -->
+    <section class="content-section" id="concept">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number" data-i18n="s01_num">01</span>
+                <h2 class="section-title" data-i18n="s01_title">КОНЦЕПЦИЯ</h2>
+                <p class="section-subtitle" data-i18n="s01_subtitle">Стратегическое видение и тактическое планирование</p>
+            </div>
+            <div class="cards-grid three-col">
+                <div class="card glass-card">
+                    <div class="card-icon">🎯</div>
+                    <h3 class="card-title" data-i18n="strategy_title">Стратегия</h3>
+                    <p class="card-text" data-i18n="strategy_text">Долгосрочные цели и направления развития организации. Определение миссии и видения.</p>
+                    <ul class="card-list">
+                        <li data-i18n="strategy_l1">Миссия и видение</li>
+                        <li data-i18n="strategy_l2">Стратегические цели</li>
+                        <li data-i18n="strategy_l3">Долгосрочное планирование</li>
+                    </ul>
+                </div>
+                <div class="card glass-card">
+                    <div class="card-icon">📋</div>
+                    <h3 class="card-title" data-i18n="tactics_title">Тактика</h3>
+                    <p class="card-text" data-i18n="tactics_text">Среднесрочные планы и методы достижения стратегических целей организации.</p>
+                    <ul class="card-list">
+                        <li data-i18n="tactics_l1">Тактические планы</li>
+                        <li data-i18n="tactics_l2">Методы реализации</li>
+                        <li data-i18n="tactics_l3">Ресурсное обеспечение</li>
+                    </ul>
+                </div>
+                <div class="card glass-card">
+                    <div class="card-icon">⚡</div>
+                    <h3 class="card-title" data-i18n="operational_title">Оперативный уровень</h3>
+                    <p class="card-text" data-i18n="operational_text">Текущая деятельность и оперативное управление процессами.</p>
+                    <ul class="card-list">
+                        <li data-i18n="operational_l1">Текущие задачи</li>
+                        <li data-i18n="operational_l2">Оперативный контроль</li>
+                        <li data-i18n="operational_l3">Ежедневные процессы</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Организация -->
+    <section class="content-section alt-bg" id="organization">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title" data-i18n="s02_title">ОРГАНИЗАЦИЯ</h2>
+                <p class="section-subtitle" data-i18n="s02_subtitle">Команда, юридическая информация и контакты</p>
+            </div>
+            <div class="cards-grid three-col">
+                <div class="card glass-card">
+                    <div class="card-icon">👥</div>
+                    <h3 class="card-title" data-i18n="team_title">Команда</h3>
+                    <p class="card-text" data-i18n="team_text">Наши специалисты и эксперты. Профессиональная команда с многолетним опытом.</p>
+                    <a href="#" class="card-link" data-i18n="more">Подробнее →</a>
+                </div>
+                <div class="card glass-card">
+                    <div class="card-icon">📜</div>
+                    <h3 class="card-title" data-i18n="legal_title">Юридический статус</h3>
+                    <p class="card-text" data-i18n="legal_text">Правовая информация, уставные документы и регистрационные данные.</p>
+                    <a href="#" class="card-link" data-i18n="more">Подробнее →</a>
+                </div>
+                <div class="card glass-card">
+                    <div class="card-icon">📞</div>
+                    <h3 class="card-title" data-i18n="contacts_title">Контакты</h3>
+                    <p class="card-text" data-i18n="contacts_text">Свяжитесь с нами для получения дополнительной информации и сотрудничества.</p>
+                    <div class="contact-card-info" style="margin-top: 15px; display: flex; flex-direction: column; gap: 8px; font-size: 13px; opacity: 0.9; line-height: 1.4;">
+                        <div>📍 <span data-i18n="footer_address">Ташкент, Узбекистан</span></div>
+                        <div>📞 <a href="tel:+998909966270" style="color: var(--primary-light); text-decoration: none; font-weight: 600;">+998 90 996 62 70</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Социальные проекты -->
+    <section class="content-section" id="social">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title" data-i18n="s03_title">СОЦИАЛЬНЫЕ ПРОЕКТЫ</h2>
+                <p class="section-subtitle" data-i18n="s03_subtitle">Вклад в развитие общества на всех уровнях</p>
+            </div>
+            <div class="cards-grid three-col">
+                <div class="card glass-card featured-card">
+                    <div class="card-badge" data-i18n="priority">Приоритет</div>
+                    <div class="card-icon">🇺🇿</div>
+                    <h3 class="card-title" data-i18n="uzbekistan_title">Республика Узбекистан</h3>
+                    <p class="card-text" data-i18n="uzbekistan_text">Социальные проекты и инициативы на территории Республики Узбекистан.</p>
+                    <div class="card-stats">
+                        <div class="stat"><span class="stat-num">50+</span><span class="stat-label" data-i18n="projects">Проектов</span></div>
+                        <div class="stat"><span class="stat-num">14</span><span class="stat-label" data-i18n="regions">Регионов</span></div>
+                    </div>
+                </div>
+                <div class="card glass-card">
+                    <div class="card-icon">🌏</div>
+                    <h3 class="card-title" data-i18n="centralasia_title">Центральная Азия</h3>
+                    <p class="card-text" data-i18n="centralasia_text">Региональное сотрудничество и совместные проекты в Центральноазиатском регионе.</p>
+                    <div class="card-stats">
+                        <div class="stat"><span class="stat-num">5</span><span class="stat-label" data-i18n="countries">Стран</span></div>
+                        <div class="stat"><span class="stat-num">20+</span><span class="stat-label" data-i18n="projects">Проектов</span></div>
+                    </div>
+                </div>
+                <div class="card glass-card">
+                    <div class="card-icon">🌍</div>
+                    <h3 class="card-title" data-i18n="world_title">Весь мир</h3>
+                    <p class="card-text" data-i18n="world_text">Международные проекты и глобальное партнёрство в различных регионах мира.</p>
+                    <div class="card-stats">
+                        <div class="stat"><span class="stat-num">30+</span><span class="stat-label" data-i18n="countries">Стран</span></div>
+                        <div class="stat"><span class="stat-num">100+</span><span class="stat-label" data-i18n="partners">Партнёров</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Структура -->
+    <section class="content-section alt-bg" id="structure">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title" data-i18n="s04_title">СТРУКТУРА</h2>
+                <p class="section-subtitle" data-i18n="s04_subtitle">Полная организационная структура платформы</p>
+            </div>
+            <div class="org-tree">
+                <div class="tree-root">
+                    <div class="tree-node root-node">NBICSKT</div>
+                    <div class="tree-level">
+                        <div class="tree-branch">
+                            <div class="tree-node branch-node" data-expand="true">
+                                <span class="node-icon">📐</span> <span data-i18n="tree_concept">Концепция</span>
+                                <span class="expand-icon">+</span>
+                            </div>
+                            <div class="tree-children">
+                                <div class="tree-node leaf-node" data-i18n="tree_strategy">Стратегия</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_tactics">Тактика</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_operational">Оперативный уровень</div>
+                            </div>
+                        </div>
+                        <div class="tree-branch">
+                            <div class="tree-node branch-node" data-expand="true">
+                                <span class="node-icon">🏢</span> <span data-i18n="tree_org">Организация</span>
+                                <span class="expand-icon">+</span>
+                            </div>
+                            <div class="tree-children">
+                                <div class="tree-node leaf-node" data-i18n="tree_team">Команда</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_legal">Юридический статус</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_contacts">Контакты</div>
+                            </div>
+                        </div>
+                        <div class="tree-branch">
+                            <div class="tree-node branch-node" data-expand="true">
+                                <span class="node-icon">🤝</span> <span data-i18n="tree_partnership">Партнёрство</span>
+                                <span class="expand-icon">+</span>
+                            </div>
+                            <div class="tree-children">
+                                <div class="tree-node leaf-node" data-i18n="tree_clients">Клиенты</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_products">Товары и услуги</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_futurum">Futurum (Будущее)</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_journal">Журнал</div>
+                                <div class="tree-node leaf-node">Potentia Creandi</div>
+                            </div>
+                        </div>
+                        <div class="tree-branch">
+                            <div class="tree-node branch-node" data-expand="true">
+                                <span class="node-icon">🌱</span> <span data-i18n="tree_social">Социальные проекты</span>
+                                <span class="expand-icon">+</span>
+                            </div>
+                            <div class="tree-children">
+                                <div class="tree-node leaf-node" data-i18n="tree_uzbekistan">Республика Узбекистан</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_centralasia">Центральная Азия</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_world">Весь мир</div>
+                            </div>
+                        </div>
+                        <div class="tree-branch">
+                            <div class="tree-node branch-node" data-expand="true">
+                                <span class="node-icon">🔬</span> <span data-i18n="tree_science">Наука и инновации</span>
+                                <span class="expand-icon">+</span>
+                            </div>
+                            <div class="tree-children">
+                                <div class="tree-node leaf-node" data-i18n="tree_management">Менеджмент</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_triz">ТРИЗ</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_ideagen">Генерация идей</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_design">Проектирование</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_patenting">Патентование</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_commerc">Коммерциализация</div>
+                            </div>
+                        </div>
+                        <div class="tree-branch">
+                            <div class="tree-node branch-node" data-expand="true">
+                                <span class="node-icon">💊</span> <span data-i18n="tree_consulting">Индивидуальное консультирование</span>
+                                <span class="expand-icon">+</span>
+                            </div>
+                            <div class="tree-children">
+                                <div class="tree-node leaf-node" data-i18n="tree_4med">4-Медицина</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_nutrition">Гигиена питания</div>
+                            </div>
+                        </div>
+                        <div class="tree-branch">
+                            <div class="tree-node branch-node" data-expand="true">
+                                <span class="node-icon">📰</span> <span data-i18n="tree_principles">Принципы</span>
+                                <span class="expand-icon">+</span>
+                            </div>
+                            <div class="tree-children">
+                                <div class="tree-node leaf-node" data-i18n="tree_production">Производство</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_services">Система услуг</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_innobank">Иннобанк</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_innofund">Иннофонд</div>
+                                <div class="tree-node leaf-node" data-i18n="tree_insurance">Страховая компания</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Клиенты -->
     <section class="content-section" id="clients">
         <div class="section-container">
             <div class="section-header">
                 <span class="section-number">05</span>
-                <h2 class="section-title" data-i18n="s05_title">КЛИЕНТЫ И ДОГОВОРЫ</h2>
+                <h2 class="section-title" data-i18n="s05_title">КЛИЕНТЫ</h2>
                 <p class="section-subtitle" data-i18n="s05_subtitle">Полный цикл взаимодействия с клиентами</p>
+            </div>
+            <div class="process-flow">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 data-i18n="offer_title">Оферта</h3>
+                        <p data-i18n="offer_text">Предложение услуг и условия сотрудничества</p>
+                    </div>
+                </div>
+                <div class="process-connector"></div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 data-i18n="consent_title">Согласие</h3>
+                        <p data-i18n="consent_text">Подтверждение и принятие условий</p>
+                    </div>
+                </div>
+                <div class="process-connector"></div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 data-i18n="contract_title">Договор распределения ответственности</h3>
+                        <p data-i18n="contract_text">Юридическое оформление сотрудничества</p>
+                    </div>
+                </div>
+                <div class="process-connector"></div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3 data-i18n="acceptance_title">Принятие</h3>
+                        <p data-i18n="acceptance_text">Финальное подтверждение и начало работы</p>
+                    </div>
+                </div>
             </div>
 
             <!-- Documents Grid -->
             <div class="documents-section" style="margin-top: 50px;">
-                <h3 class="documents-header" data-i18n="doc_section_title" style="font-family: var(--font-display); font-size: 20px; font-weight: 700; color: var(--text-bright); text-align: center; margin-bottom: 30px;">ДОГОВОРЫ И ДОКУМЕНТЫ</h3>
+                <h3 class="documents-header" data-i18n="doc_section_title" style="font-family: var(--font-display); font-size: 20px; font-weight: 700; color: var(--text-bright); text-align: center; margin-bottom: 30px; letter-spacing: 1px;">ДОКУМЕНТЫ И ДОГОВОРЫ</h3>
                 <div class="documents-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                     <!-- Document 1 -->
-                    <div class="document-card glass-card" style="padding: 24px; display: flex; flex-direction: column; gap: 15px; align-items: stretch; justify-content: space-between; border-radius: var(--radius-lg);">
+                    <div class="document-card glass-card" style="padding: 24px; display: flex; flex-direction: column; gap: 15px; align-items: stretch; justify-content: space-between; border-radius: var(--radius-md); background: rgba(255,255,255,0.02); border: 1px solid var(--border); transition: var(--transition);">
                         <div style="display: flex; align-items: center; gap: 15px; text-align: left;">
                             <div style="font-size: 32px;">📄</div>
                             <div>
-                                <h4 style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text-bright); line-height: 1.3; margin: 0;">Договор 1</h4>
-                                <span style="font-size: 11px; color: var(--text-muted);">PDF · dogovor_1.pdf</span>
+                                <h4 data-i18n="doc_title_1" style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text-bright); line-height: 1.3; margin: 0;">Договор (Базовый)</h4>
+                                <span style="font-size: 11px; color: var(--text-muted);">PDF · File.pdf</span>
                             </div>
                         </div>
-                        <a href="dogovor_1.pdf" target="_blank" class="btn btn-outline" style="width: 100%; text-align: center; padding: 8px 12px; font-size: 13px; margin-top: auto;">Скачать PDF</a>
+                        <a href="dogovors/dogovor_1.pdf" target="_blank" class="btn btn-outline" data-i18n="doc_download" style="width: 100%; text-align: center; padding: 8px 12px; font-size: 13px; margin-top: 10px; display: block;">Скачать PDF</a>
                     </div>
                     <!-- Document 2 -->
-                    <div class="document-card glass-card" style="padding: 24px; display: flex; flex-direction: column; gap: 15px; align-items: stretch; justify-content: space-between; border-radius: var(--radius-lg);">
+                    <div class="document-card glass-card" style="padding: 24px; display: flex; flex-direction: column; gap: 15px; align-items: stretch; justify-content: space-between; border-radius: var(--radius-md); background: rgba(255,255,255,0.02); border: 1px solid var(--border); transition: var(--transition);">
                         <div style="display: flex; align-items: center; gap: 15px; text-align: left;">
                             <div style="font-size: 32px;">📄</div>
                             <div>
-                                <h4 style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text-bright); line-height: 1.3; margin: 0;">Договор 2</h4>
-                                <span style="font-size: 11px; color: var(--text-muted);">PDF · dogovor_2.pdf</span>
+                                <h4 data-i18n="doc_title_2" style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text-bright); line-height: 1.3; margin: 0;">Договор (Типовой)</h4>
+                                <span style="font-size: 11px; color: var(--text-muted);">PDF · File0001.pdf</span>
                             </div>
                         </div>
-                        <a href="dogovor_2.pdf" target="_blank" class="btn btn-outline" style="width: 100%; text-align: center; padding: 8px 12px; font-size: 13px; margin-top: auto;">Скачать PDF</a>
+                        <a href="dogovors/dogovor_2.pdf" target="_blank" class="btn btn-outline" data-i18n="doc_download" style="width: 100%; text-align: center; padding: 8px 12px; font-size: 13px; margin-top: 10px; display: block;">Скачать PDF</a>
                     </div>
                     <!-- Document 3 -->
-                    <div class="document-card glass-card" style="padding: 24px; display: flex; flex-direction: column; gap: 15px; align-items: stretch; justify-content: space-between; border-radius: var(--radius-lg);">
+                    <div class="document-card glass-card" style="padding: 24px; display: flex; flex-direction: column; gap: 15px; align-items: stretch; justify-content: space-between; border-radius: var(--radius-md); background: rgba(255,255,255,0.02); border: 1px solid var(--border); transition: var(--transition);">
                         <div style="display: flex; align-items: center; gap: 15px; text-align: left;">
                             <div style="font-size: 32px;">📄</div>
                             <div>
-                                <h4 style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text-bright); line-height: 1.3; margin: 0;">Договор 3</h4>
-                                <span style="font-size: 11px; color: var(--text-muted);">PDF · dogovor_3.pdf</span>
+                                <h4 data-i18n="doc_title_3" style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text-bright); line-height: 1.3; margin: 0;">Договор (Расширенный)</h4>
+                                <span style="font-size: 11px; color: var(--text-muted);">PDF · File0002.pdf</span>
                             </div>
                         </div>
-                        <a href="dogovor_3.pdf" target="_blank" class="btn btn-outline" style="width: 100%; text-align: center; padding: 8px 12px; font-size: 13px; margin-top: auto;">Скачать PDF</a>
+                        <a href="dogovors/dogovor_3.pdf" target="_blank" class="btn btn-outline" data-i18n="doc_download" style="width: 100%; text-align: center; padding: 8px 12px; font-size: 13px; margin-top: 10px; display: block;">Скачать PDF</a>
                     </div>
                     <!-- Document 4 -->
-                    <div class="document-card glass-card" style="padding: 24px; display: flex; flex-direction: column; gap: 15px; align-items: stretch; justify-content: space-between; border-radius: var(--radius-lg);">
+                    <div class="document-card glass-card" style="padding: 24px; display: flex; flex-direction: column; gap: 15px; align-items: stretch; justify-content: space-between; border-radius: var(--radius-md); background: rgba(255,255,255,0.02); border: 1px solid var(--border); transition: var(--transition);">
                         <div style="display: flex; align-items: center; gap: 15px; text-align: left;">
                             <div style="font-size: 32px;">📄</div>
                             <div>
-                                <h4 style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text-bright); line-height: 1.3; margin: 0;">Договор 4</h4>
-                                <span style="font-size: 11px; color: var(--text-muted);">PDF · dogovor_4.pdf</span>
+                                <h4 data-i18n="doc_title_4" style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text-bright); line-height: 1.3; margin: 0;">Договор (Партнерский)</h4>
+                                <span style="font-size: 11px; color: var(--text-muted);">PDF · File0003.pdf</span>
                             </div>
                         </div>
-                        <a href="dogovor_4.pdf" target="_blank" class="btn btn-outline" style="width: 100%; text-align: center; padding: 8px 12px; font-size: 13px; margin-top: auto;">Скачать PDF</a>
+                        <a href="dogovors/dogovor_4.pdf" target="_blank" class="btn btn-outline" data-i18n="doc_download" style="width: 100%; text-align: center; padding: 8px 12px; font-size: 13px; margin-top: 10px; display: block;">Скачать PDF</a>
                     </div>
                     <!-- Document 5 -->
-                    <div class="document-card glass-card" style="padding: 24px; display: flex; flex-direction: column; gap: 15px; align-items: stretch; justify-content: space-between; border-radius: var(--radius-lg);">
+                    <div class="document-card glass-card" style="padding: 24px; display: flex; flex-direction: column; gap: 15px; align-items: stretch; justify-content: space-between; border-radius: var(--radius-md); background: rgba(255,255,255,0.02); border: 1px solid var(--border); transition: var(--transition);">
                         <div style="display: flex; align-items: center; gap: 15px; text-align: left;">
                             <div style="font-size: 32px;">📄</div>
                             <div>
-                                <h4 style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text-bright); line-height: 1.3; margin: 0;">Договор 5</h4>
-                                <span style="font-size: 11px; color: var(--text-muted);">PDF · dogovor_5.pdf</span>
+                                <h4 data-i18n="doc_title_5" style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text-bright); line-height: 1.3; margin: 0;">Договор (Специальный)</h4>
+                                <span style="font-size: 11px; color: var(--text-muted);">PDF · File0004.pdf</span>
                             </div>
                         </div>
-                        <a href="dogovor_5.pdf" target="_blank" class="btn btn-outline" style="width: 100%; text-align: center; padding: 8px 12px; font-size: 13px; margin-top: auto;">Скачать PDF</a>
+                        <a href="dogovors/dogovor_5.pdf" target="_blank" class="btn btn-outline" data-i18n="doc_download" style="width: 100%; text-align: center; padding: 8px 12px; font-size: 13px; margin-top: 10px; display: block;">Скачать PDF</a>
                     </div>
                     <!-- Document 6 -->
-                    <div class="document-card glass-card" style="padding: 24px; display: flex; flex-direction: column; gap: 15px; align-items: stretch; justify-content: space-between; border-radius: var(--radius-lg);">
+                    <div class="document-card glass-card" style="padding: 24px; display: flex; flex-direction: column; gap: 15px; align-items: stretch; justify-content: space-between; border-radius: var(--radius-md); background: rgba(255,255,255,0.02); border: 1px solid var(--border); transition: var(--transition);">
                         <div style="display: flex; align-items: center; gap: 15px; text-align: left;">
                             <div style="font-size: 32px;">📜</div>
                             <div>
-                                <h4 style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text-bright); line-height: 1.3; margin: 0;">Договор с ВМА</h4>
-                                <span style="font-size: 11px; color: var(--text-muted);">PDF · dogovor_vma.pdf</span>
+                                <h4 data-i18n="doc_title_6" style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text-bright); line-height: 1.3; margin: 0;">Договор ВМА</h4>
+                                <span style="font-size: 11px; color: var(--text-muted);">PDF · Воен. мед. академия</span>
                             </div>
                         </div>
-                        <a href="dogovor_vma.pdf" target="_blank" class="btn btn-outline" style="width: 100%; text-align: center; padding: 8px 12px; font-size: 13px; margin-top: auto;">Скачать PDF</a>
+                        <a href="dogovors/dogovor_vma.pdf" target="_blank" class="btn btn-outline" data-i18n="doc_download" style="width: 100%; text-align: center; padding: 8px 12px; font-size: 13px; margin-top: 10px; display: block;">Скачать PDF</a>
                     </div>
                     <!-- Document 7 -->
-                    <div class="document-card glass-card" style="padding: 24px; display: flex; flex-direction: column; gap: 15px; align-items: stretch; justify-content: space-between; border-radius: var(--radius-lg);">
+                    <div class="document-card glass-card" style="padding: 24px; display: flex; flex-direction: column; gap: 15px; align-items: stretch; justify-content: space-between; border-radius: var(--radius-md); background: rgba(255,255,255,0.02); border: 1px solid var(--border); transition: var(--transition);">
                         <div style="display: flex; align-items: center; gap: 15px; text-align: left;">
                             <div style="font-size: 32px;">📜</div>
                             <div>
-                                <h4 style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text-bright); line-height: 1.3; margin: 0;">Договор с ЦР РУз</h4>
-                                <span style="font-size: 11px; color: var(--text-muted);">PDF · dogovor_cr_ruz.pdf</span>
+                                <h4 data-i18n="doc_title_7" style="font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text-bright); line-height: 1.3; margin: 0;">Договор ЦР РУз</h4>
+                                <span style="font-size: 11px; color: var(--text-muted);">PDF · Центр реабилитации РУз</span>
                             </div>
                         </div>
-                        <a href="dogovor_cr_ruz.pdf" target="_blank" class="btn btn-outline" style="width: 100%; text-align: center; padding: 8px 12px; font-size: 13px; margin-top: auto;">Скачать PDF</a>
+                        <a href="dogovors/dogovor_cr_ruz.pdf" target="_blank" class="btn btn-outline" data-i18n="doc_download" style="width: 100%; text-align: center; padding: 8px 12px; font-size: 13px; margin-top: 10px; display: block;">Скачать PDF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Товары и Услуги -->
+    <section class="content-section alt-bg" id="products">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number">06</span>
+                <h2 class="section-title" data-i18n="s06_title">ТОВАРЫ И УСЛУГИ</h2>
+                <p class="section-subtitle" data-i18n="s06_subtitle">Полный каталог продуктов и услуг</p>
+            </div>
+            <div class="tabs-container">
+                <div class="tabs-nav">
+                    <button class="tab-btn active" data-tab="selection" data-i18n="tab_process">Процесс</button>
+                    <button class="tab-btn" data-tab="categories" data-i18n="tab_categories">Категории</button>
+                    <button class="tab-btn" data-tab="levels" data-i18n="tab_levels">Уровни</button>
+                </div>
+                <div class="tab-content active" id="tab-selection">
+                    <div class="cards-grid five-col">
+                        <div class="card mini-card">
+                            <div class="card-icon">🔍</div>
+                            <h4 data-i18n="selection">Выбор</h4>
+                        </div>
+                        <div class="card mini-card">
+                            <div class="card-icon">🛒</div>
+                            <h4 data-i18n="purchase">Покупка</h4>
+                        </div>
+                        <div class="card mini-card">
+                            <div class="card-icon">📖</div>
+                            <h4 data-i18n="instruction">Инструкция</h4>
+                        </div>
+                        <div class="card mini-card">
+                            <div class="card-icon">💡</div>
+                            <h4 data-i18n="recommendations">Рекомендации</h4>
+                        </div>
+                        <div class="card mini-card">
+                            <div class="card-icon">📝</div>
+                            <h4 data-i18n="advice">Советы</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="tab-categories">
+                    <div class="cards-grid five-col">
+                        <div class="card mini-card">
+                            <div class="card-icon">⭐</div>
+                            <h4 data-i18n="standard">Стандартные</h4>
+                        </div>
+                        <div class="card mini-card">
+                            <div class="card-icon">💎</div>
+                            <h4 data-i18n="exclusive">Эксклюзивные</h4>
+                        </div>
+                        <div class="card mini-card">
+                            <div class="card-icon">🔥</div>
+                            <h4 data-i18n="popular">Популярные</h4>
+                        </div>
+                        <div class="card mini-card">
+                            <div class="card-icon">👔</div>
+                            <h4 data-i18n="professional">Профессиональные</h4>
+                        </div>
+                        <div class="card mini-card">
+                            <div class="card-icon">🎖️</div>
+                            <h4 data-i18n="special">Специальные</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="tab-levels">
+                    <div class="cards-grid three-col">
+                        <div class="card glass-card level-card">
+                            <div class="level-badge" data-i18n="level1">Уровень 1</div>
+                            <h3 data-i18n="primary_title">Первичные</h3>
+                            <p data-i18n="primary_text">Базовый уровень товаров и услуг для начинающих пользователей</p>
+                        </div>
+                        <div class="card glass-card level-card">
+                            <div class="level-badge" data-i18n="level2">Уровень 2</div>
+                            <h3 data-i18n="secondary_title">Вторичные</h3>
+                            <p data-i18n="secondary_text">Расширенный уровень с дополнительными возможностями</p>
+                        </div>
+                        <div class="card glass-card level-card">
+                            <div class="level-badge" data-i18n="level3">Уровень 3</div>
+                            <h3 data-i18n="tertiary_title">Третичные</h3>
+                            <p data-i18n="tertiary_text">Премиальный уровень с полным набором функций</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Futurum & Журнал -->
+    <section class="content-section" id="journal">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number">07</span>
+                <h2 class="section-title" data-i18n="s07_title">ЖУРНАЛ</h2>
+                <p class="section-subtitle" data-i18n="s07_subtitle">Futurum (Будущее) &amp; Potentia Creandi (Сила Творчества)</p>
+            </div>
+            <div class="journal-grid">
+                <div class="journal-block">
+                    <div class="journal-header-block">
+                        <h3 class="journal-name">Futurum</h3>
+                        <span class="journal-subtitle" data-i18n="futurum_sub">Будущее</span>
+                    </div>
+                    <div class="journal-tags">
+                        <span class="tag" data-i18n="tag_popular_science">Научно-популярный</span>
+                        <span class="tag" data-i18n="tag_information">Информации</span>
+                        <span class="tag" data-i18n="tag_ideas">Идеи</span>
+                        <span class="tag" data-i18n="tag_scifi">Научная фантастика</span>
+                    </div>
+                </div>
+                <div class="journal-block main-journal">
+                    <div class="journal-header-block">
+                        <h3 class="journal-name" data-i18n="journal_name">Журнал</h3>
+                        <span class="journal-subtitle" data-i18n="journal_sub">Концепция и Блоки</span>
+                    </div>
+                    <div class="journal-categories">
+                        <div class="cat-column">
+                            <h4 data-i18n="scientific">Научный</h4>
+                            <ul>
+                                <li data-i18n="analytics">Аналитика</li>
+                                <li data-i18n="infographics">Инфографика</li>
+                                <li data-i18n="reviews">Обзоры</li>
+                                <li data-i18n="articles">Статьи</li>
+                            </ul>
+                        </div>
+                        <div class="cat-column">
+                            <h4 data-i18n="reports_col">Отчёты</h4>
+                            <ul>
+                                <li data-i18n="reports_item">Доклады и отчёты</li>
+                                <li data-i18n="presentations">Презентации</li>
+                                <li data-i18n="dissertations">Диссертации</li>
+                                <li data-i18n="abstracts">Авторефераты</li>
+                            </ul>
+                        </div>
+                        <div class="cat-column">
+                            <h4 data-i18n="other_col">Другое</h4>
+                            <ul>
+                                <li data-i18n="monographs">Монографии</li>
+                                <li data-i18n="metrology">Метрология</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="journal-block">
+                    <div class="journal-header-block">
+                        <h3 class="journal-name">Potentia Creandi</h3>
+                        <span class="journal-subtitle" data-i18n="potentia_sub">Сила Творчества — TeEvoCo</span>
+                    </div>
+                    <div class="journal-categories">
+                        <div class="cat-column">
+                            <h4 data-i18n="scientific_innovation">Научно-инновационный</h4>
+                            <ul>
+                                <li data-i18n="breakthrough_ideas">Прорывные идеи</li>
+                                <li data-i18n="projects_item">Проекты</li>
+                                <li data-i18n="presentations">Презентации</li>
+                                <li data-i18n="patents">Патенты</li>
+                                <li data-i18n="methodology">Методология</li>
+                            </ul>
+                        </div>
+                        <div class="cat-column">
+                            <h4 data-i18n="directions">Направления</h4>
+                            <ul>
+                                <li data-i18n="fundamental">Фундаментальные</li>
+                                <li data-i18n="innovative">Инновационные</li>
+                                <li data-i18n="startups">«Стартапы»</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Индивидуальное Консультирование -->
+    <section class="content-section alt-bg" id="consulting">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number">08</span>
+                <h2 class="section-title" data-i18n="s08_title">ИНДИВИДУАЛЬНОЕ КОНСУЛЬТИРОВАНИЕ</h2>
+                <p class="section-subtitle" data-i18n="s08_subtitle">Персональные консультации и медицинские программы</p>
+            </div>
+            <div class="consulting-grid">
+                <div class="consulting-block">
+                    <div class="consulting-header">
+                        <div class="consulting-icon">🏥</div>
+                        <h3 data-i18n="medicine4_title">«4-Медицина»</h3>
+                    </div>
+                    <div class="consulting-items">
+                        <div class="consulting-item"><span class="item-dot"></span><span data-i18n="diagnostics">Диагностика</span></div>
+                        <div class="consulting-item"><span class="item-dot"></span><span data-i18n="forecasting">Прогнозирование</span></div>
+                        <div class="consulting-item"><span class="item-dot"></span><span data-i18n="prevention">Профилактика</span></div>
+                        <div class="consulting-item"><span class="item-dot"></span><span data-i18n="treatment">Лечение</span></div>
+                        <div class="consulting-item"><span class="item-dot"></span><span data-i18n="rehabilitation">Реабилитация</span></div>
+                    </div>
+                </div>
+                <div class="consulting-block">
+                    <div class="consulting-header">
+                        <div class="consulting-icon">🥗</div>
+                        <h3 data-i18n="nutrition_title">Гигиена питания</h3>
+                    </div>
+                    <div class="consulting-items two-col">
+                        <div class="consulting-item"><span class="item-dot"></span><span data-i18n="recomplitation">Рекомплитация</span></div>
+                        <div class="consulting-item"><span class="item-dot"></span><span data-i18n="basal_metabolism">Основообмен</span></div>
+                        <div class="consulting-item"><span class="item-dot"></span><span data-i18n="water_balance">Водный баланс</span></div>
+                        <div class="consulting-item"><span class="item-dot"></span><span data-i18n="minerals">Минералы</span></div>
+                        <div class="consulting-item"><span class="item-dot"></span><span data-i18n="vitamins">Витамины</span></div>
+                        <div class="consulting-item"><span class="item-dot"></span><span data-i18n="proteins">Белки</span></div>
+                        <div class="consulting-item"><span class="item-dot"></span><span data-i18n="fats">Жиры</span></div>
+                        <div class="consulting-item"><span class="item-dot"></span><span data-i18n="carbohydrates">Углеводы</span></div>
+                        <div class="consulting-item"><span class="item-dot"></span><span data-i18n="diets">Диеты</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Наука и инновации -->
+    <section class="content-section" id="science">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number">09</span>
+                <h2 class="section-title" data-i18n="s09_title">НАУКА И ИННОВАЦИИ</h2>
+                <p class="section-subtitle" data-i18n="s09_subtitle">От идеи до коммерциализации</p>
+            </div>
+            <div class="innovation-pipeline">
+                <div class="pipeline-item"><div class="pipeline-icon">💼</div><h4 data-i18n="management">Менеджмент</h4></div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-item"><div class="pipeline-icon">💡</div><h4 data-i18n="triz">ТРИЗ</h4></div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-item"><div class="pipeline-icon">🧠</div><h4 data-i18n="idea_generation">Генерация идей</h4></div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-item"><div class="pipeline-icon">📐</div><h4 data-i18n="designing">Проектирование</h4></div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-item"><div class="pipeline-icon">🤝</div><h4 data-i18n="support">Сопровождение</h4></div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-item"><div class="pipeline-icon">📋</div><h4 data-i18n="patenting">Патентование</h4></div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-item"><div class="pipeline-icon">📊</div><h4 data-i18n="evaluation_criteria">Критерии оценки</h4></div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-item"><div class="pipeline-icon">💰</div><h4 data-i18n="commercialization">Коммерциализация</h4></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Партнёрство -->
+    <section class="content-section alt-bg" id="partnership">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number">10</span>
+                <h2 class="section-title" data-i18n="s10_title">ПАРТНЁРСТВО</h2>
+                <p class="section-subtitle" data-i18n="s10_subtitle">Принципы, организация и государственно-частное партнёрство</p>
+            </div>
+            <div class="partnership-grid">
+                <div class="card glass-card">
+                    <div class="card-icon">📜</div>
+                    <h3 class="card-title" data-i18n="principles_title">Принципы</h3>
+                    <p class="card-text" data-i18n="principles_text">Основные принципы и ценности нашей организации, определяющие подход к работе.</p>
+                </div>
+                <div class="card glass-card">
+                    <div class="card-icon">🏭</div>
+                    <h3 class="card-title" data-i18n="org_right_title">Организация</h3>
+                    <div class="card-tags">
+                        <span class="tag" data-i18n="production">Производство</span>
+                        <span class="tag" data-i18n="service_system">Система услуг</span>
+                        <span class="tag" data-i18n="innobank">Иннобанк</span>
+                        <span class="tag" data-i18n="innofund">Иннофонд</span>
+                        <span class="tag" data-i18n="insurance_company">Страховая компания</span>
+                    </div>
+                </div>
+                <div class="card glass-card featured-card">
+                    <div class="card-badge" data-i18n="key_item">Ключевое</div>
+                    <div class="card-icon">🏛️</div>
+                    <h3 class="card-title" data-i18n="ppp_title">Государственно-частное партнёрство</h3>
+                    <p class="card-text" data-i18n="ppp_text">Эффективное взаимодействие государственного и частного секторов для реализации стратегических проектов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Structure Map -->
+    <section class="content-section structure-map-section" id="fullmap">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number">11</span>
+                <h2 class="section-title" data-i18n="s11_title">ПОЛНАЯ КАРТА СТРУКТУРЫ</h2>
+                <p class="section-subtitle" data-i18n="s11_subtitle">Интерактивная карта всех разделов и подразделов</p>
+            </div>
+            <div class="mindmap-container" id="mindmapContainer">
+                <div class="mindmap">
+                    <div class="mm-center">
+                        <div class="mm-node mm-root">NBICSKT</div>
+                    </div>
+                    <div class="mm-side mm-left">
+                        <div class="mm-group">
+                            <div class="mm-node mm-branch clickable" onclick="toggleMM(this)"><span>📐</span> <span data-i18n="tree_concept">Концепция</span></div>
+                            <div class="mm-leaves">
+                                <div class="mm-node mm-leaf" data-i18n="tree_strategy">Стратегия</div>
+                                <div class="mm-node mm-leaf" data-i18n="tree_tactics">Тактика</div>
+                                <div class="mm-node mm-leaf" data-i18n="tree_operational">Оперативный уровень</div>
+                            </div>
+                        </div>
+                        <div class="mm-group">
+                            <div class="mm-node mm-branch clickable" onclick="toggleMM(this)"><span>🏢</span> <span data-i18n="tree_org">Организация</span></div>
+                            <div class="mm-leaves">
+                                <div class="mm-node mm-leaf" data-i18n="tree_team">Команда</div>
+                                <div class="mm-node mm-leaf" data-i18n="tree_legal">Юридический статус</div>
+                                <div class="mm-node mm-leaf" data-i18n="tree_contacts">Контакты</div>
+                            </div>
+                        </div>
+                        <div class="mm-group">
+                            <div class="mm-node mm-branch clickable" onclick="toggleMM(this)"><span>🌍</span> <span data-i18n="tree_social">Социальные проекты</span></div>
+                            <div class="mm-leaves">
+                                <div class="mm-node mm-leaf">🇺🇿 <span data-i18n="tree_uzbekistan">Узбекистан</span></div>
+                                <div class="mm-node mm-leaf">🌏 <span data-i18n="tree_centralasia">Центральная Азия</span></div>
+                                <div class="mm-node mm-leaf">🌍 <span data-i18n="tree_world">Весь мир</span></div>
+                            </div>
+                        </div>
+                        <div class="mm-group">
+                            <div class="mm-node mm-branch clickable" onclick="toggleMM(this)"><span>🤝</span> <span data-i18n="tree_clients">Клиенты</span></div>
+                            <div class="mm-leaves">
+                                <div class="mm-node mm-leaf" data-i18n="offer_title">Оферта</div>
+                                <div class="mm-node mm-leaf" data-i18n="consent_title">Согласие</div>
+                                <div class="mm-node mm-leaf" data-i18n="contract_title">Договор</div>
+                                <div class="mm-node mm-leaf" data-i18n="acceptance_title">Принятие</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mm-side mm-right">
+                        <div class="mm-group">
+                            <div class="mm-node mm-branch clickable" onclick="toggleMM(this)"><span>🛍️</span> <span data-i18n="tree_products">Товары и услуги</span></div>
+                            <div class="mm-leaves">
+                                <div class="mm-node mm-leaf" data-i18n="standard">Стандартные</div>
+                                <div class="mm-node mm-leaf" data-i18n="exclusive">Эксклюзивные</div>
+                                <div class="mm-node mm-leaf" data-i18n="professional">Профессиональные</div>
+                                <div class="mm-node mm-leaf" data-i18n="special">Специальные</div>
+                            </div>
+                        </div>
+                        <div class="mm-group">
+                            <div class="mm-node mm-branch clickable" onclick="toggleMM(this)"><span>📰</span> <span data-i18n="tree_journal">Журнал / Futurum</span></div>
+                            <div class="mm-leaves">
+                                <div class="mm-node mm-leaf" data-i18n="analytics">Аналитика</div>
+                                <div class="mm-node mm-leaf" data-i18n="articles">Статьи</div>
+                                <div class="mm-node mm-leaf" data-i18n="reviews">Обзоры</div>
+                                <div class="mm-node mm-leaf" data-i18n="dissertations">Диссертации</div>
+                            </div>
+                        </div>
+                        <div class="mm-group">
+                            <div class="mm-node mm-branch clickable" onclick="toggleMM(this)"><span>🔬</span> <span data-i18n="tree_science">Наука и инновации</span></div>
+                            <div class="mm-leaves">
+                                <div class="mm-node mm-leaf" data-i18n="triz">ТРИЗ</div>
+                                <div class="mm-node mm-leaf" data-i18n="idea_generation">Генерация идей</div>
+                                <div class="mm-node mm-leaf" data-i18n="patenting">Патентование</div>
+                                <div class="mm-node mm-leaf" data-i18n="commercialization">Коммерциализация</div>
+                            </div>
+                        </div>
+                        <div class="mm-group">
+                            <div class="mm-node mm-branch clickable" onclick="toggleMM(this)"><span>💊</span> <span data-i18n="tree_consulting">Консультирование</span></div>
+                            <div class="mm-leaves">
+                                <div class="mm-node mm-leaf" data-i18n="tree_4med">4-Медицина</div>
+                                <div class="mm-node mm-leaf" data-i18n="tree_nutrition">Гигиена питания</div>
+                                <div class="mm-node mm-leaf" data-i18n="diagnostics">Диагностика</div>
+                                <div class="mm-node mm-leaf" data-i18n="rehabilitation">Реабилитация</div>
+                            </div>
+                        </div>
+                        <div class="mm-group">
+                            <div class="mm-node mm-branch clickable" onclick="toggleMM(this)"><span>🏛️</span> <span data-i18n="ppp_title">Партнёрство / ГЧП</span></div>
+                            <div class="mm-leaves">
+                                <div class="mm-node mm-leaf" data-i18n="production">Производство</div>
+                                <div class="mm-node mm-leaf" data-i18n="innobank">Иннобанк</div>
+                                <div class="mm-node mm-leaf" data-i18n="innofund">Иннофонд</div>
+                                <div class="mm-node mm-leaf" data-i18n="insurance_company">Страховая компания</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -242,15 +870,51 @@
                         <div class="logo-icon"><span class="logo-letter">N</span></div>
                         <span class="footer-brand">NBICSKT</span>
                     </div>
-                    <p class="footer-desc">Структурно-функциональная платформа для науки, бизнеса, инноваций и консалтинга.</p>
+                    <p class="footer-desc" data-i18n="footer_desc">Структурно-функциональная платформа для науки, бизнеса, инноваций, консалтинга и социальных проектов.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer_sections">Разделы</h4>
+                    <ul>
+                        <li><a href="#concept" data-i18n="nav_concept">Концепция</a></li>
+                        <li><a href="#structure" data-i18n="nav_structure">Структура</a></li>
+                        <li><a href="#partnership" data-i18n="nav_partnership">Партнёрство</a></li>
+                        <li><a href="#clients" data-i18n="nav_clients">Клиенты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer_platform">Платформа</h4>
+                    <ul>
+                        <li><a href="#products" data-i18n="footer_products_services">Товары и услуги</a></li>
+                        <li><a href="#journal" data-i18n="nav_journal">Журнал</a></li>
+                        <li><a href="#science" data-i18n="s09_title">Наука и инновации</a></li>
+                        <li><a href="#consulting" data-i18n="footer_consulting">Консультирование</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer_contacts">Контакты</h4>
+                    <ul>
+                        <li>📍 <span data-i18n="footer_address">Ташкент, Узбекистан</span></li>
+                        <li>📧 info@nbicskt.uz</li>
+                        <li>📞 <a href="tel:+998909966270" style="color: inherit; text-decoration: none;">+998 90 996 62 70</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 NBICSKT. Все права защищены.</p>
+                <p data-i18n="footer_rights">&copy; 2026 NBICSKT. Все права защищены.</p>
+                <div class="footer-langs">
+                    <span>🌐</span>
+                    <a href="#" data-lang="ru" class="footer-lang-link">RUS</a> ·
+                    <a href="#" data-lang="uz" class="footer-lang-link">O'ZB</a> ·
+                    <a href="#" data-lang="en" class="footer-lang-link">ENG</a>
+                </div>
             </div>
         </div>
     </footer>
 
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="translations.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
